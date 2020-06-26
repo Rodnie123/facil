@@ -1,0 +1,144 @@
+
+@font-face {
+   font-family: samsungsharpsans;
+   src: url(fonts/samsungsharpsans.otf);
+}
+
+@font-face {
+   font-family: samsungsharpsans2;
+   src: url(fonts/samsungsharpsans-medium.otf);
+}
+* {
+	font-family: samsungsharpsans	;
+}
+.banner {
+	
+	background-image: url('img/rec.png');
+	background-repeat: no-repeat;
+	background-position: top center;
+}
+.banner-text {
+	font-family: samsungsharpsans2;
+	font-size: 3.5rem;
+	text-transform: uppercase;
+	color: white;
+	padding-top: 40px;
+}
+.app_stores {
+	padding: 0 308px;
+	padding-bottom: 300px;
+}
+.register-button button {
+	margin-top: 20px;
+	width: 100%;
+	padding: 13px;
+	border:none;
+	border-radius: 8px;
+	color: white;
+}
+.logo-footer {
+	height: 40px;
+}
+.green-small-background {
+	
+}
+.green-small-background .first {
+	top: 20px;
+}
+.green-small-background .second {
+	top: 10%;
+	right: 0;
+}
+.green-small-background .third {
+	top: 60%;
+	left: 0;
+}
+.green-small-background .fourth {
+	top: 70%;
+	right:  0;
+}
+.green-small-background .fifth {
+	top: 90%;
+	left:  0;
+}
+.green-small-background .first,
+.green-small-background .second,
+.green-small-background .third,
+.green-small-background .fourth,
+.green-small-background .fifth {
+	z-index: -50;
+}
+nav .logo{
+
+	height: 40px;
+}
+
+nav ul li {
+	display:inline-block;
+	padding: 2px 20px 0 2px;
+	margin-top: 20px;
+	text-transform: uppercase;
+	color: white;
+	font-weight: bold;
+}
+nav {
+	display: flex;
+	justify-content: space-between;
+	padding: 40px 300px 0 300px;
+}
+
+
+.h-100vh {
+	height: 100vh
+}
+
+.w-full {
+	width: 100%;
+}
+
+
+
+
+.flex {
+	display: flex
+}
+
+@media (min-width: 200px) and (max-width: 1024px) {
+
+  nav {
+
+  	display: flex;
+	justify-content: space-between;
+	padding: 20px 0;
+
+
+  }
+  nav ul li {
+	display:inline-block;
+	padding: 0 10px;
+	text-transform: uppercase;
+	color: white;
+	font-weight: bold;
+}
+
+.app_stores {
+	padding: 0;
+}
+}
+
+@media only screen and (min-width: 1200px) {
+    /* styles for wide screens */\
+    nav {
+    	max-width: 1140px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    /* styles for wide screens */\
+  
+     nav ul li {
+	display: flex;
+	justify-content: space-between;
+	padding: 0;
+}
+}
